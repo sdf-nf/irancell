@@ -4,7 +4,7 @@ import "./../assets/styles/Utils.css";
 const YellowBgButton = ({ text }) => {
   return (
     <button className="yellow-button">
-      <sapn className="yellow-button_text">{text}</sapn>
+      <span className="yellow-button_text">{text}</span>
     </button>
   );
 };
