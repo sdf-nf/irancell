@@ -1,0 +1,15 @@
+.yellow-button {
+  background: goldenrod;
+  padding: 0.8rem;
+  border: none;
+  border-radius: 0.5rem;
+}
+.yellow-button_text {
+  color: white;
+  font-size: large;
+}
+.header-text {
+  font-weight: 700;
+  font-size: 1.5rem;
+  margin-left: auto;
+}
