@@ -4,3 +4,29 @@
   border-radius: 0.5rem;
   margin-top: 2rem;
 }
+
+.table-container {
+  background: white;
+  padding: 0.5rem;
+  margin-top: 2rem;
+  border-radius: 0.5rem;
+  display: flex;
+  flex-direction: column;
+}
+th {
+  text-align: right;
+}
+table {
+  border: 1px solid black;
+  border-radius: 0.5rem;
+  padding: 0.5rem;
+}
+th,
+td {
+  border-bottom: 1px solid black;
+  padding-bottom: 0.5rem;
+  margin-top: 0.5rem;
+}
+.no-border > td {
+  border-bottom: none;
+}
