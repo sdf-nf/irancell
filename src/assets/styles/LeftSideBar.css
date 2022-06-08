@@ -1,0 +1,68 @@
+.leftsidebar-container {
+  display: flex;
+  flex-direction: column;
+}
+.userprofile-container {
+  width: 20vw;
+  background-color: white;
+  height: 10vh;
+  border-radius: 0.5rem;
+  padding: 1rem;
+  display: flex;
+}
+.profile-picture {
+  width: 2rem;
+  border: 0.3rem solid goldenrod;
+  border-radius: 100%;
+}
+.profile-detail {
+  font-size: small;
+  display: flex;
+  flex-direction: column;
+  margin-right: 3rem;
+  height: 100%;
+}
+.profile-detail > span {
+  margin-top: 0.5rem;
+  margin-bottom: 0.5rem;
+}
+.credit-container {
+  display: flex;
+  flex-direction: column;
+  height: 80vh;
+  width: 100%;
+  background-color: white;
+  border-radius: 0.5rem;
+  margin-top: 2rem;
+}
+.doughnut-chart {
+  min-width: 150px;
+  min-height: 150px;
+  max-width: 200px;
+  max-height: 200px;
+  border-left: 1rem solid goldenrod;
+  border-top: 1rem solid goldenrod;
+  border-bottom: 1rem solid goldenrod;
+  border-right: 1rem solid grey;
+  border-radius: 100%;
+  position: relative;
+  transform: rotate(-45deg);
+  margin: auto;
+}
+
+.doughnut-chart-inner {
+  width: 200px;
+  height: 200px;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  transform: rotate(45deg);
+}
+.button-container {
+  display: flex;
+  justify-content: center;
+  margin-bottom: 2rem;
+}
+.headertext-container {
+  margin: 0.5rem;
+}
