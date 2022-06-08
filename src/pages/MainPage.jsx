@@ -1,6 +1,7 @@
 import React from "react";
 import Body from "../components/body/Body";
 import Header from "../components/header/Header";
+import LeftSideBar from "../components/leftSidebar/LeftSidebar";
 
 const MainPage = () => {
   return (
@@ -8,11 +9,13 @@ const MainPage = () => {
       <main
         style={{
           display: "flex",
-          justifyContent: "space-between",
+          justifyContent: "space-around",
           alignItems: "center",
         }}
       >
-        <section>left</section>
+        <section>
+          <LeftSideBar />
+        </section>
         <section>
           <header style={{ maxWidth: "50vw" }}>
             <Header />

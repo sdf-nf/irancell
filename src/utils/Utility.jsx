@@ -10,9 +10,9 @@ const YellowBgButton = ({ text }) => {
 };
 export const HeaderText = ({ text }) => {
   return (
-    <h3 dir="rtl" className="header-text">
+    <h6 dir="rtl" className="header-text">
       {text}
-    </h3>
+    </h6>
   );
 };
 export default YellowBgButton;
