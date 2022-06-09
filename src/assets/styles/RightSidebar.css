@@ -1,0 +1,102 @@
+.rightSidebar-container {
+  min-height: 155vh;
+  background-color: white;
+  width: 20vw;
+  border-radius: 0.5rem;
+}
+.rightSidebar-header {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  padding-top: 2rem;
+}
+.rightSidebar-header-text {
+  background-color: goldenrod;
+  padding: 0.5rem;
+  font-weight: 700;
+  font-size: 0.8rem;
+  border-radius: 0.7rem;
+}
+.rightSidebar-header-image {
+  width: 3rem;
+  border-radius: 100%;
+}
+.searchInput-container {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 2rem;
+  margin-bottom: 2rem;
+  border: 1px solid gray;
+  width: fit-content;
+  margin-left: auto;
+  margin-right: auto;
+  border-radius: 0.5rem;
+  overflow: hidden;
+}
+.searchInputIcon {
+  width: 1.2rem;
+  right: 0;
+  top: 0;
+  left: 0;
+}
+.searchInput {
+  position: relative;
+  border: none;
+  border-radius: 0.5rem;
+  line-height: 1rem;
+}
+.searchInput:focus-visible {
+  outline: none;
+}
+.searchInput::placeholder {
+  text-align: right;
+}
+.mainPage {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  border-left: 4px solid goldenrod;
+  margin-bottom: 1rem;
+}
+.mainPage-text {
+  font-size: 0.8rem;
+}
+.mainPage-icon {
+  width: 0.9rem;
+  margin-left: 2rem;
+}
+.section-header-text {
+  width: 100%;
+  margin: auto;
+}
+.section-header {
+  padding: 2rem;
+  display: flex;
+  justify-content: center;
+}
+
+.services {
+  padding-right: 5.5rem;
+  display: flex;
+  flex-direction: column;
+  position: relative;
+  align-items: flex-end;
+}
+.recharge {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-bottom: 1rem;
+  right: 0;
+}
+.recharge-icon {
+  width: 0.9rem;
+  margin-left: 2rem;
+}
+.recharge-text {
+  font-size: 0.8rem;
+}
+.marginTop {
+  margin-top: 3rem;
+}

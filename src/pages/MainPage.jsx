@@ -2,6 +2,7 @@ import React from "react";
 import Body from "../components/body/Body";
 import Header from "../components/header/Header";
 import LeftSideBar from "../components/leftSidebar/LeftSidebar";
+import RightSidebar from "../components/rightSiadebar/RightSidebar";
 
 const MainPage = () => {
   return (
@@ -24,7 +25,9 @@ const MainPage = () => {
             <Body />
           </article>
         </section>
-        <section>Right</section>
+        <section>
+          <RightSidebar />
+        </section>
       </main>
     </>
   );
