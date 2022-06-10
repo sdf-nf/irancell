@@ -7,7 +7,7 @@ const UserProfile = () => {
         <img src={Profile} alt="profile" className="profile-picture" />
       </div>
       <div className="profile-detail">
-        <span>سلام، حسین احمدپناه</span>
+        <span>سلام، صدف مختاراوغلی و آیدا براتی</span>
         <span>+98123456789</span>
       </div>
     </div>
